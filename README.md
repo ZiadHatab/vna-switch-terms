@@ -19,13 +19,11 @@ I will not discuss the details here, but you can check the math yourself in [1] 
 Assuming you have measurements from at least three good reciprocal devices, you can measure the switch terms by solving the following system of equations:
 
 $$
-\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 \newcommand{\bs}[1]{\boldsymbol{#1}}
-
 \begin{bmatrix}
-  -\overbar{S}_{11}^{(1)}\frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}} & -\overbar{S}_{22}^{(1)} & 1 & \frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}}\\\
+  -S_{11}^{(1)}\frac{S_{12}^{(1)}}{S_{21}^{(1)}} & -S_{22}^{(1)} & 1 & \frac{S_{12}^{(1)}}{S_{21}^{(1)}}\\\
   \vdots & \vdots & \vdots & \vdots\\\
-  -\overbar{S}_{11}^{(M)}\frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}} & -\overbar{S}_{22}^{(M)} & 1 & \frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}}
+  -S_{11}^{(M)}\frac{S_{12}^{(M)}}{S_{21}^{(M)}} & -S_{22}^{(M)} & 1 & \frac{S_{12}^{(M)}}{S_{21}^{(M)}}
 \end{bmatrix}\begin{bmatrix}
 \Gamma_{12}\\\
 c\Gamma_{21}\\\
