@@ -21,16 +21,17 @@ Assuming you have measurements from at least three good reciprocal devices, you 
 $$
 \newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 \newcommand{\bs}[1]{\boldsymbol{#1}}
-	\begin{bmatrix}
-		-\overbar{S}_{11}^{(1)}\frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}} & -\overbar{S}_{22}^{(1)} & 1 & \frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}}\\\
-		\vdots & \vdots & \vdots & \vdots\\\
-		-\overbar{S}_{11}^{(M)}\frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}} & -\overbar{S}_{22}^{(M)} & 1 & \frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}}
-	\end{bmatrix}\begin{bmatrix}
-	\Gamma_{12}\\\
-	c\Gamma_{21}\\\
-	c\\\
-	1
-	\end{bmatrix} = \bs{0}
+
+\begin{bmatrix}
+  -\overbar{S}_{11}^{(1)}\frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}} & -\overbar{S}_{22}^{(1)} & 1 & \frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}}\\\
+  \vdots & \vdots & \vdots & \vdots\\\
+  -\overbar{S}_{11}^{(M)}\frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}} & -\overbar{S}_{22}^{(M)} & 1 & \frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}}
+\end{bmatrix}\begin{bmatrix}
+\Gamma_{12}\\\
+c\Gamma_{21}\\\
+c\\\
+1
+\end{bmatrix} = \bs{0}
 $$
 
 where $M\geq 3$ is the number of measured reciprocal devices, and $S_{ij}$ are the measured S-parameters. The switch terms, $\Gamma_{21}$ and $\Gamma_{12}$, can be found through the nullspace of the system matrix, which can be solved using SVD (see the code below).
