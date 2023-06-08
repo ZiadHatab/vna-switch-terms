@@ -22,13 +22,13 @@ $$
 \newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 \newcommand{\bs}[1]{\boldsymbol{#1}}
 	\begin{bmatrix}
-		-\overbar{S}_{11}^{(1)}\frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}} & -\overbar{S}_{22}^{(1)} & 1 & \frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}}\\
-		\vdots & \vdots & \vdots & \vdots\\
+		-\overbar{S}_{11}^{(1)}\frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}} & -\overbar{S}_{22}^{(1)} & 1 & \frac{\overbar{S}_{12}^{(1)}}{\overbar{S}_{21}^{(1)}}\\\
+		\vdots & \vdots & \vdots & \vdots\\\
 		-\overbar{S}_{11}^{(M)}\frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}} & -\overbar{S}_{22}^{(M)} & 1 & \frac{\overbar{S}_{12}^{(M)}}{\overbar{S}_{21}^{(M)}}
 	\end{bmatrix}\begin{bmatrix}
-	\Gamma_{12}\\
-	c\Gamma_{21}\\
-	c\\
+	\Gamma_{12}\\\
+	c\Gamma_{21}\\\
+	c\\\
 	1
 	\end{bmatrix} = \bs{0}
 $$
