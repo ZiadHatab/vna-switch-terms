@@ -19,7 +19,6 @@ I will not discuss the details here, but you can check the math yourself in [1] 
 Assuming you have measurements from at least three good reciprocal devices, you can measure the switch terms by solving the following system of equations:
 
 $$
-\newcommand{\bs}[1]{\boldsymbol{#1}}
 \begin{bmatrix}
   -S_{11}^{(1)}\frac{S_{12}^{(1)}}{S_{21}^{(1)}} & -S_{22}^{(1)} & 1 & \frac{S_{12}^{(1)}}{S_{21}^{(1)}}\\\
   \vdots & \vdots & \vdots & \vdots\\\
@@ -29,7 +28,7 @@ $$
 c\Gamma_{21}\\\
 c\\\
 1
-\end{bmatrix} = \bs{0}
+\end{bmatrix} = \boldsymbol{0}
 $$
 
 where $M\geq 3$ is the number of measured reciprocal devices, and $S_{ij}$ are the measured S-parameters. The switch terms, $\Gamma_{21}$ and $\Gamma_{12}$, can be found through the nullspace of the system matrix, which can be solved using SVD (see the code below).
