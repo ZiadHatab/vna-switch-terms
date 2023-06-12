@@ -55,7 +55,7 @@ def compute_switch_terms(S):
         nullspace = vh[-1,:].conj()  # get the nullspace        
         Gamma21.append(nullspace[1]/nullspace[2])  # that is all
         Gamma12.append(nullspace[0]/nullspace[3])
-
+    
     return np.array(Gamma21), np.array(Gamma12)
 
 # main script
