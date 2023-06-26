@@ -8,6 +8,8 @@ Switch terms are reflections that occur due to imperfect matching of the termina
 
 In this repository, I present an interesting technique for determining switch terms using only three receivers of a VNA (left image above). Although most modern VNAs are based on a four-sampler architecture (right image above), it is noteworthy that switch terms can be measured without using the fourth receiver or prior SOLT calibration. This method requires only three reciprocal devices.
 
+If you want to learn more about switch terms, I have post all about it: <https://ziadhatab.github.io/posts/vna-switch-terms/>
+
 ## How it works
 
 I will not discuss the details here, but you can check the math yourself in [1] (it is quite straightforward). Instead, I will highlight a few practical things that could help you avoid unnecessary pitfalls.
