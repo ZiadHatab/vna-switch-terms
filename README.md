@@ -85,7 +85,8 @@ Additionally, I performed a multiline TRL calibration to demonstrate the differe
 
 ## References
 
-[1] Z. Hatab, M. E. Gadringer, and W. Bösch, "Indirect Measurement of Switch Terms of a Vector Network Analyzer with Reciprocal Devices" 2023, e-print: <https://arxiv.org/abs/2306.07066>.
+[1] Z. Hatab, M. E. Gadringer and W. Bosch, "Indirect Measurement of Switch Terms of a Vector Network Analyzer With Reciprocal Devices," in _IEEE Microwave and Wireless Technology Letters_, vol. 33, no. 11, pp. 1588-1591, Nov. 2023, doi: [10.1109/LMWT.2023.3311032](https://doi.org/10.1109/LMWT.2023.3311032).
+
 
 [numpy]: https://github.com/numpy/numpy
 [skrf]: https://github.com/scikit-rf/scikit-rf
